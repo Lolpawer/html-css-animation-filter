@@ -88,11 +88,21 @@
     animation-timing-function: linear;
 }
 @keyframes ex10animation {
-    0% { transform: rotate(0%) }
+    0% { transform: rotate(0) }
     100% { transform: rotate(-360deg) }
 }
 .ex-11-icon {
     font-size: 60px;
+}
+.ex-11-icon:hover {
+    animation-name: ex11animation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes ex11animation {
+    0% { transform: rotate(0) }
+    90% { transform: rotate(270deg) }
+    100% { transform: rotate(0) }
 }
 .ex-12-button, .ex-13-button {
     position: relative;
