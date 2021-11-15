@@ -43,6 +43,13 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: all 1s;
+}
+.ex-5-square:hover {
+    transform: scale(2) /* aumentare le dimensioni con width e height non funziona, si ingrandisce verso il basso e verso destra, facendo aumentare le dimensioni della row */
+}
+.ex-5-square:active {
+    transform: scale(0.5)
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
