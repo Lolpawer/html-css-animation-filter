@@ -165,3 +165,66 @@
         right: 20%;
     }
 }
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: ex13top;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+@keyframes ex13top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: 100%;
+        top: -10px;
+    }
+    50%{
+        left: 100%;
+        top: 60px;
+    }
+    80%{
+        left: -10%;
+        top: 60px;
+    }
+    90%{
+        left: -10%;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: ex13bottom;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+@keyframes ex13bottom {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+    30% {
+        right: 80%;
+        bottom: -10px;
+    }
+    50%{
+        right: 80%;
+        bottom: 60px;
+    }
+    80%{
+        right: -10%;
+        bottom: 60px;
+    }
+    90%{
+        right: -10%;
+        bottom: -10px;
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+}
