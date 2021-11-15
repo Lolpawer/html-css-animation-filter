@@ -12,6 +12,12 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: all 1s;
+}
+.ex-2-square:active {
+    width: 100%;
+    transition: all 1s;
+    transition-timing-function: linear;
 }
 .ex-3-square {
     width: 100px;
