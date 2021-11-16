@@ -88,8 +88,7 @@
     animation-timing-function: linear;
 }
 @keyframes ex10animation {
-    0% { transform: rotate(0) }
-    100% { transform: rotate(-360deg) }
+    100% { transform: rotate(1turn) }
 }
 .ex-11-icon {
     font-size: 60px;
